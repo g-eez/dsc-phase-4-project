@@ -51,8 +51,6 @@ Ultimately, these models can be deployed to provide **actionable insights** for 
 
 Data was split **80/20 (train/test)** and transformed using **TF-IDF vectorization**.  
 
-![sentiment_tweetlength](images/sentiment_tweetlength.png)
-
 ---
 
 ## 🤖 Modeling
@@ -65,8 +63,6 @@ Tested models: **Logistic Regression**, **Random Forest**, and **SVM**.
 - **Strength**: Balanced performance, particularly effective at detecting *negative sentiments*.  
 - **Note**: Although SVM had slightly higher accuracy (89%), it underperformed in recall and F1 for negative tweets.  
 
-![binary_log](images/binary_log.png)
-
 ---
 
 ### 🔹 Multiclass Classification
@@ -76,7 +72,6 @@ Tested models: **Multinomial Naive Bayes** and an **Ensemble (Naive Bayes + Rand
 - **Accuracy**: 68% (vs. 61% for Naive Bayes)  
 - **Strength**: Better at detecting *neutral* and *negative* sentiments, leading to more balanced results.  
 
-![multiclass_ensemble](images/multiclass_ensemble.png)
 
 ---
 
