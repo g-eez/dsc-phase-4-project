@@ -1,0 +1,11 @@
+collections
+imblearn.over_sampling
+matplotlib.pyplot
+nltk
+numpy
+pandas
+re
+scikit-learn
+seaborn
+string
+wordcloud
