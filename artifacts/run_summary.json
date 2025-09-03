@@ -1,0 +1,22 @@
+{
+  "chosen_model": "calibrated_svm",
+  "cv_folds": 5,
+  "random_state": 42,
+  "train_size": 7273,
+  "validation_size": 909,
+  "test_size": 910,
+  "class_distribution_train": {
+    "No emotion toward brand or product": 4310,
+    "Positive emotion": 2382,
+    "Negative emotion": 456,
+    "I can't tell": 125
+  },
+  "validation_metrics": {
+    "accuracy": 0.6743674367436744,
+    "f1_macro": 0.38244369351162394
+  },
+  "test_metrics": {
+    "accuracy": 0.7054945054945055,
+    "f1_macro": 0.4463349564857024
+  }
+}
